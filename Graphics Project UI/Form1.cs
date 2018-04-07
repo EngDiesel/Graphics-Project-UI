@@ -26,7 +26,12 @@ namespace Graphics_Project_UI
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
         {
-            lblTest.Text = pnlDDA.Size.Height.ToString();
+            // lblTest.Text = pnlDDA.Size.Height.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           // Add The main axis to the panels
         }
     }
 }
