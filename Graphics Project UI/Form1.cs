@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin.Controls;
+using MaterialSkin;
 
 namespace Graphics_Project_UI
 {
@@ -17,7 +18,15 @@ namespace Graphics_Project_UI
         {
             InitializeComponent();
 
+            var skinManager = MaterialSkinManager.Instance;
+            skinManager.AddFormToManage(this);
+            skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            skinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+        }
 
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        {
+            lblTest.Text = pnlDDA.Size.Height.ToString();
         }
     }
 }

@@ -55,6 +55,18 @@
             this.pnlBresenham = new System.Windows.Forms.Panel();
             this.pnlCircle = new System.Windows.Forms.Panel();
             this.pnlEllipse = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.lblTest = new MaterialSkin.Controls.MaterialLabel();
             this.tabGraphs.SuspendLayout();
             this.tabLine.SuspendLayout();
             this.tabDDASteps.SuspendLayout();
@@ -68,6 +80,12 @@
             this.tabPage3.SuspendLayout();
             this.materialTabControl3.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.SuspendLayout();
             // 
             // tabGraphs
@@ -110,6 +128,10 @@
             // 
             // tabDDAGraph
             // 
+            this.tabDDAGraph.Controls.Add(this.materialFlatButton1);
+            this.tabDDAGraph.Controls.Add(this.groupBox2);
+            this.tabDDAGraph.Controls.Add(this.groupBox1);
+            this.tabDDAGraph.Controls.Add(this.lblTest);
             this.tabDDAGraph.Controls.Add(this.pnlDDA);
             resources.ApplyResources(this.tabDDAGraph, "tabDDAGraph");
             this.tabDDAGraph.Name = "tabDDAGraph";
@@ -274,6 +296,98 @@
             resources.ApplyResources(this.pnlEllipse, "pnlEllipse");
             this.pnlEllipse.Name = "pnlEllipse";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.numericUpDown2);
+            this.groupBox1.Controls.Add(this.numericUpDown1);
+            this.groupBox1.Controls.Add(this.materialLabel2);
+            this.groupBox1.Controls.Add(this.materialLabel1);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.numericUpDown3);
+            this.groupBox2.Controls.Add(this.numericUpDown4);
+            this.groupBox2.Controls.Add(this.materialLabel3);
+            this.groupBox2.Controls.Add(this.materialLabel4);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // materialLabel1
+            // 
+            resources.ApplyResources(this.materialLabel1, "materialLabel1");
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            // 
+            // materialLabel2
+            // 
+            resources.ApplyResources(this.materialLabel2, "materialLabel2");
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            // 
+            // materialLabel3
+            // 
+            resources.ApplyResources(this.materialLabel3, "materialLabel3");
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            // 
+            // materialLabel4
+            // 
+            resources.ApplyResources(this.materialLabel4, "materialLabel4");
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            // 
+            // numericUpDown1
+            // 
+            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
+            this.numericUpDown1.Name = "numericUpDown1";
+            // 
+            // numericUpDown2
+            // 
+            resources.ApplyResources(this.numericUpDown2, "numericUpDown2");
+            this.numericUpDown2.Name = "numericUpDown2";
+            // 
+            // numericUpDown3
+            // 
+            resources.ApplyResources(this.numericUpDown3, "numericUpDown3");
+            this.numericUpDown3.Name = "numericUpDown3";
+            // 
+            // numericUpDown4
+            // 
+            resources.ApplyResources(this.numericUpDown4, "numericUpDown4");
+            this.numericUpDown4.Name = "numericUpDown4";
+            // 
+            // materialFlatButton1
+            // 
+            resources.ApplyResources(this.materialFlatButton1, "materialFlatButton1");
+            this.materialFlatButton1.Depth = 0;
+            this.materialFlatButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.materialFlatButton1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton1.Name = "materialFlatButton1";
+            this.materialFlatButton1.Primary = false;
+            this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
+            // lblTest
+            // 
+            resources.ApplyResources(this.lblTest, "lblTest");
+            this.lblTest.Depth = 0;
+            this.lblTest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTest.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblTest.Name = "lblTest";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -287,6 +401,7 @@
             this.tabLine.ResumeLayout(false);
             this.tabDDASteps.ResumeLayout(false);
             this.tabDDAGraph.ResumeLayout(false);
+            this.tabDDAGraph.PerformLayout();
             this.tabLine2.ResumeLayout(false);
             this.tabCircle.ResumeLayout(false);
             this.tabEllipse.ResumeLayout(false);
@@ -296,6 +411,14 @@
             this.tabPage3.ResumeLayout(false);
             this.materialTabControl3.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -328,6 +451,18 @@
         private System.Windows.Forms.Panel pnlBresenham;
         private System.Windows.Forms.Panel pnlCircle;
         private System.Windows.Forms.Panel pnlEllipse;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private MaterialSkin.Controls.MaterialLabel lblTest;
     }
 }
 
