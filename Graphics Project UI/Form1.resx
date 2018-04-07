@@ -176,7 +176,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -185,7 +185,7 @@
     <value>6, 67</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+    <value>76, 18</value>
   </data>
   <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -209,7 +209,7 @@
     <value>True</value>
   </data>
   <data name="lbl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="lbl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -218,7 +218,7 @@
     <value>6, 31</value>
   </data>
   <data name="lbl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 19</value>
+    <value>45, 18</value>
   </data>
   <data name="lbl1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -262,6 +262,48 @@
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="materialFlatButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="materialFlatButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1191, 342</value>
+  </data>
+  <data name="materialFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>50, 50, 50, 50</value>
+  </data>
+  <data name="materialFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 36</value>
+  </data>
+  <data name="materialFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialFlatButton1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Name" xml:space="preserve">
+    <value>materialFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Parent" xml:space="preserve">
+    <value>tabDDAGraph</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btnDDADraw.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -299,7 +341,7 @@
     <value>tabDDAGraph</value>
   </data>
   <data name="&gt;&gt;btnDDADraw.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="DDAYe.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 32</value>
@@ -347,7 +389,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -356,7 +398,7 @@
     <value>17, 33</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
+    <value>18, 18</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -380,7 +422,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -389,7 +431,7 @@
     <value>112, 33</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
+    <value>17, 18</value>
   </data>
   <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -431,7 +473,7 @@
     <value>tabDDAGraph</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="DDAYs.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 34</value>
@@ -479,7 +521,7 @@
     <value>True</value>
   </data>
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -488,7 +530,7 @@
     <value>112, 35</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
+    <value>17, 18</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -512,13 +554,13 @@
     <value>True</value>
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
+    <value>Microsoft Sans Serif, 11pt</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 35</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
+    <value>18, 18</value>
   </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -560,7 +602,7 @@
     <value>tabDDAGraph</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="pnlDDA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -584,7 +626,7 @@
     <value>tabDDAGraph</value>
   </data>
   <data name="&gt;&gt;pnlDDA.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="tabDDAGraph.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>

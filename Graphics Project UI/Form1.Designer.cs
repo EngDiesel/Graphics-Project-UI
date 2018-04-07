@@ -117,6 +117,7 @@
             this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
             this.EllipseRx = new System.Windows.Forms.NumericUpDown();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.tabGraphs.SuspendLayout();
             this.tabLine.SuspendLayout();
             this.tabDDASteps.SuspendLayout();
@@ -208,6 +209,7 @@
             // tabDDAGraph
             // 
             this.tabDDAGraph.Controls.Add(this.groupBox3);
+            this.tabDDAGraph.Controls.Add(this.materialFlatButton1);
             this.tabDDAGraph.Controls.Add(this.btnDDADraw);
             this.tabDDAGraph.Controls.Add(this.groupBox2);
             this.tabDDAGraph.Controls.Add(this.groupBox1);
@@ -393,6 +395,7 @@
             this.groupBox1.Controls.Add(this.DDAXs);
             this.groupBox1.Controls.Add(this.materialLabel2);
             this.groupBox1.Controls.Add(this.materialLabel1);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
@@ -403,6 +406,7 @@
             this.groupBox2.Controls.Add(this.DDAXe);
             this.groupBox2.Controls.Add(this.materialLabel3);
             this.groupBox2.Controls.Add(this.materialLabel4);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
@@ -411,7 +415,7 @@
             // 
             resources.ApplyResources(this.materialLabel1, "materialLabel1");
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             // 
@@ -419,7 +423,7 @@
             // 
             resources.ApplyResources(this.materialLabel2, "materialLabel2");
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             // 
@@ -427,7 +431,7 @@
             // 
             resources.ApplyResources(this.materialLabel3, "materialLabel3");
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             // 
@@ -435,7 +439,7 @@
             // 
             resources.ApplyResources(this.materialLabel4, "materialLabel4");
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
             // 
@@ -477,6 +481,7 @@
             this.groupBox3.Controls.Add(this.penDDA);
             this.groupBox3.Controls.Add(this.materialLabel5);
             this.groupBox3.Controls.Add(this.lbl1);
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
@@ -485,7 +490,7 @@
             // 
             resources.ApplyResources(this.materialLabel5, "materialLabel5");
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             // 
@@ -493,7 +498,7 @@
             // 
             resources.ApplyResources(this.lbl1, "lbl1");
             this.lbl1.Depth = 0;
-            this.lbl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lbl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl1.Name = "lbl1";
             // 
@@ -516,6 +521,7 @@
             this.groupBox4.Controls.Add(this.penBresenham);
             this.groupBox4.Controls.Add(this.materialLabel6);
             this.groupBox4.Controls.Add(this.materialLabel7);
+            this.groupBox4.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
@@ -537,7 +543,7 @@
             // 
             resources.ApplyResources(this.materialLabel6, "materialLabel6");
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             // 
@@ -545,7 +551,7 @@
             // 
             resources.ApplyResources(this.materialLabel7, "materialLabel7");
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             // 
@@ -566,6 +572,7 @@
             this.groupBox5.Controls.Add(this.BresenhamXe);
             this.groupBox5.Controls.Add(this.materialLabel8);
             this.groupBox5.Controls.Add(this.materialLabel9);
+            this.groupBox5.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
@@ -584,7 +591,7 @@
             // 
             resources.ApplyResources(this.materialLabel8, "materialLabel8");
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
             // 
@@ -592,7 +599,7 @@
             // 
             resources.ApplyResources(this.materialLabel9, "materialLabel9");
             this.materialLabel9.Depth = 0;
-            this.materialLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel9.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel9.Name = "materialLabel9";
             // 
@@ -602,6 +609,7 @@
             this.groupBox6.Controls.Add(this.BresenhamXs);
             this.groupBox6.Controls.Add(this.materialLabel10);
             this.groupBox6.Controls.Add(this.materialLabel11);
+            this.groupBox6.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.TabStop = false;
@@ -620,7 +628,7 @@
             // 
             resources.ApplyResources(this.materialLabel10, "materialLabel10");
             this.materialLabel10.Depth = 0;
-            this.materialLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel10.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel10.Name = "materialLabel10";
             // 
@@ -628,7 +636,7 @@
             // 
             resources.ApplyResources(this.materialLabel11, "materialLabel11");
             this.materialLabel11.Depth = 0;
-            this.materialLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel11.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel11.Name = "materialLabel11";
             // 
@@ -638,6 +646,7 @@
             this.groupBox7.Controls.Add(this.penCircle);
             this.groupBox7.Controls.Add(this.materialLabel12);
             this.groupBox7.Controls.Add(this.materialLabel13);
+            this.groupBox7.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.TabStop = false;
@@ -659,7 +668,7 @@
             // 
             resources.ApplyResources(this.materialLabel12, "materialLabel12");
             this.materialLabel12.Depth = 0;
-            this.materialLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel12.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel12.Name = "materialLabel12";
             // 
@@ -667,7 +676,7 @@
             // 
             resources.ApplyResources(this.materialLabel13, "materialLabel13");
             this.materialLabel13.Depth = 0;
-            this.materialLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel13.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel13.Name = "materialLabel13";
             // 
@@ -688,6 +697,7 @@
             this.groupBox9.Controls.Add(this.CircleXs);
             this.groupBox9.Controls.Add(this.materialLabel16);
             this.groupBox9.Controls.Add(this.materialLabel17);
+            this.groupBox9.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.TabStop = false;
@@ -706,7 +716,7 @@
             // 
             resources.ApplyResources(this.materialLabel16, "materialLabel16");
             this.materialLabel16.Depth = 0;
-            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel16.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel16.Name = "materialLabel16";
             // 
@@ -714,7 +724,7 @@
             // 
             resources.ApplyResources(this.materialLabel17, "materialLabel17");
             this.materialLabel17.Depth = 0;
-            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel17.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel17.Name = "materialLabel17";
             // 
@@ -722,7 +732,7 @@
             // 
             resources.ApplyResources(this.materialLabel14, "materialLabel14");
             this.materialLabel14.Depth = 0;
-            this.materialLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel14.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel14.Name = "materialLabel14";
             // 
@@ -735,6 +745,7 @@
             // 
             this.groupBox8.Controls.Add(this.CircleRadius);
             this.groupBox8.Controls.Add(this.materialLabel14);
+            this.groupBox8.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.TabStop = false;
@@ -743,7 +754,7 @@
             // 
             resources.ApplyResources(this.materialLabel21, "materialLabel21");
             this.materialLabel21.Depth = 0;
-            this.materialLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel21.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel21.Name = "materialLabel21";
             // 
@@ -751,7 +762,7 @@
             // 
             resources.ApplyResources(this.materialLabel20, "materialLabel20");
             this.materialLabel20.Depth = 0;
-            this.materialLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel20.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel20.Name = "materialLabel20";
             // 
@@ -771,6 +782,7 @@
             this.groupBox12.Controls.Add(this.EllipseXs);
             this.groupBox12.Controls.Add(this.materialLabel20);
             this.groupBox12.Controls.Add(this.materialLabel21);
+            this.groupBox12.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox12, "groupBox12");
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.TabStop = false;
@@ -790,7 +802,7 @@
             // 
             resources.ApplyResources(this.materialLabel19, "materialLabel19");
             this.materialLabel19.Depth = 0;
-            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel19.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel19.Name = "materialLabel19";
             // 
@@ -798,7 +810,7 @@
             // 
             resources.ApplyResources(this.materialLabel18, "materialLabel18");
             this.materialLabel18.Depth = 0;
-            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel18.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel18.Name = "materialLabel18";
             // 
@@ -821,6 +833,7 @@
             this.groupBox11.Controls.Add(this.penEllipse);
             this.groupBox11.Controls.Add(this.materialLabel18);
             this.groupBox11.Controls.Add(this.materialLabel19);
+            this.groupBox11.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.TabStop = false;
@@ -829,7 +842,7 @@
             // 
             resources.ApplyResources(this.materialLabel15, "materialLabel15");
             this.materialLabel15.Depth = 0;
-            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel15.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel15.Name = "materialLabel15";
             // 
@@ -842,7 +855,7 @@
             // 
             resources.ApplyResources(this.materialLabel22, "materialLabel22");
             this.materialLabel22.Depth = 0;
-            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel22.ForeColor = System.Drawing.Color.Gray;
             this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel22.Name = "materialLabel22";
             // 
@@ -857,9 +870,22 @@
             this.groupBox10.Controls.Add(this.materialLabel22);
             this.groupBox10.Controls.Add(this.EllipseRy);
             this.groupBox10.Controls.Add(this.materialLabel15);
+            this.groupBox10.ForeColor = System.Drawing.SystemColors.WindowFrame;
             resources.ApplyResources(this.groupBox10, "groupBox10");
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.TabStop = false;
+            // 
+            // materialFlatButton1
+            // 
+            resources.ApplyResources(this.materialFlatButton1, "materialFlatButton1");
+            this.materialFlatButton1.Depth = 0;
+            this.materialFlatButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.materialFlatButton1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton1.Name = "materialFlatButton1";
+            this.materialFlatButton1.Primary = false;
+            this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
             // Form1
             // 
@@ -869,6 +895,7 @@
             this.Controls.Add(this.tabGraphs);
             this.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabGraphs.ResumeLayout(false);
@@ -1029,6 +1056,7 @@
         private System.Windows.Forms.NumericUpDown EllipseXs;
         private MaterialSkin.Controls.MaterialLabel materialLabel20;
         private MaterialSkin.Controls.MaterialLabel materialLabel21;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
     }
 }
 
