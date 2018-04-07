@@ -121,7 +121,32 @@
   <data name="tabGraphs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="pnlDDA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlDDA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlDDA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 562</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlDDA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlDDA.Name" xml:space="preserve">
+    <value>pnlDDA</value>
+  </data>
+  <data name="&gt;&gt;pnlDDA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlDDA.Parent" xml:space="preserve">
+    <value>tabDDAGraph</value>
+  </data>
+  <data name="&gt;&gt;pnlDDA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabDDAGraph.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -129,9 +154,8 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabDDAGraph.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 329</value>
+    <value>1264, 568</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabDDAGraph.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -181,10 +205,10 @@
     <value>Bottom</value>
   </data>
   <data name="tabDDASteps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 36</value>
+    <value>3, 40</value>
   </data>
   <data name="tabDDASteps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 355</value>
+    <value>1272, 594</value>
   </data>
   <data name="tabDDASteps.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -235,7 +259,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 394</value>
+    <value>1278, 637</value>
   </data>
   <data name="tabLine.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -255,6 +279,30 @@
   <data name="&gt;&gt;tabLine.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="pnlBresenham.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlBresenham.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlBresenham.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 562</value>
+  </data>
+  <data name="pnlBresenham.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlBresenham.Name" xml:space="preserve">
+    <value>pnlBresenham</value>
+  </data>
+  <data name="&gt;&gt;pnlBresenham.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBresenham.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;pnlBresenham.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -262,7 +310,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 329</value>
+    <value>1264, 568</value>
   </data>
   <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -289,7 +337,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 329</value>
+    <value>1264, 560</value>
   </data>
   <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -313,10 +361,10 @@
     <value>Bottom</value>
   </data>
   <data name="materialTabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 36</value>
+    <value>3, 40</value>
   </data>
   <data name="materialTabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 355</value>
+    <value>1272, 594</value>
   </data>
   <data name="materialTabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -367,7 +415,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabLine2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 394</value>
+    <value>1278, 637</value>
   </data>
   <data name="tabLine2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -387,6 +435,30 @@
   <data name="&gt;&gt;tabLine2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pnlCircle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 562</value>
+  </data>
+  <data name="pnlCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlCircle.Name" xml:space="preserve">
+    <value>pnlCircle</value>
+  </data>
+  <data name="&gt;&gt;pnlCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlCircle.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;pnlCircle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -394,7 +466,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 329</value>
+    <value>1264, 568</value>
   </data>
   <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -445,10 +517,10 @@
     <value>Bottom</value>
   </data>
   <data name="materialTabControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 36</value>
+    <value>3, 40</value>
   </data>
   <data name="materialTabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 355</value>
+    <value>1272, 594</value>
   </data>
   <data name="materialTabControl2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -499,7 +571,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 394</value>
+    <value>1278, 637</value>
   </data>
   <data name="tabCircle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -519,6 +591,30 @@
   <data name="&gt;&gt;tabCircle.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="pnlEllipse.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlEllipse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlEllipse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 562</value>
+  </data>
+  <data name="pnlEllipse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlEllipse.Name" xml:space="preserve">
+    <value>pnlEllipse</value>
+  </data>
+  <data name="&gt;&gt;pnlEllipse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlEllipse.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;pnlEllipse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -526,7 +622,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 329</value>
+    <value>1264, 568</value>
   </data>
   <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -577,10 +673,10 @@
     <value>Bottom</value>
   </data>
   <data name="materialTabControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 36</value>
+    <value>3, 40</value>
   </data>
   <data name="materialTabControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1272, 355</value>
+    <value>1272, 594</value>
   </data>
   <data name="materialTabControl3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -631,7 +727,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabEllipse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 394</value>
+    <value>1278, 637</value>
   </data>
   <data name="tabEllipse.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -655,7 +751,7 @@
     <value>-10, 117</value>
   </data>
   <data name="tabGraphs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 420</value>
+    <value>1286, 663</value>
   </data>
   <data name="tabGraphs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -706,7 +802,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1264, 537</value>
+    <value>1264, 780</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

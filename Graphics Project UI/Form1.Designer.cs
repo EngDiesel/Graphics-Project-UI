@@ -51,15 +51,23 @@
             this.materialTabControl3 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pnlDDA = new System.Windows.Forms.Panel();
+            this.pnlBresenham = new System.Windows.Forms.Panel();
+            this.pnlCircle = new System.Windows.Forms.Panel();
+            this.pnlEllipse = new System.Windows.Forms.Panel();
             this.tabGraphs.SuspendLayout();
             this.tabLine.SuspendLayout();
             this.tabDDASteps.SuspendLayout();
+            this.tabDDAGraph.SuspendLayout();
             this.tabLine2.SuspendLayout();
             this.tabCircle.SuspendLayout();
             this.tabEllipse.SuspendLayout();
             this.materialTabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.materialTabControl2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.materialTabControl3.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabGraphs
@@ -102,6 +110,7 @@
             // 
             // tabDDAGraph
             // 
+            this.tabDDAGraph.Controls.Add(this.pnlDDA);
             resources.ApplyResources(this.tabDDAGraph, "tabDDAGraph");
             this.tabDDAGraph.Name = "tabDDAGraph";
             this.tabDDAGraph.UseVisualStyleBackColor = true;
@@ -164,6 +173,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.pnlBresenham);
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -194,6 +204,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.pnlCircle);
             resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -224,6 +235,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.pnlEllipse);
             resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -233,6 +245,34 @@
             resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // pnlDDA
+            // 
+            this.pnlDDA.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlDDA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.pnlDDA, "pnlDDA");
+            this.pnlDDA.Name = "pnlDDA";
+            // 
+            // pnlBresenham
+            // 
+            this.pnlBresenham.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlBresenham.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.pnlBresenham, "pnlBresenham");
+            this.pnlBresenham.Name = "pnlBresenham";
+            // 
+            // pnlCircle
+            // 
+            this.pnlCircle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlCircle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.pnlCircle, "pnlCircle");
+            this.pnlCircle.Name = "pnlCircle";
+            // 
+            // pnlEllipse
+            // 
+            this.pnlEllipse.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlEllipse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.pnlEllipse, "pnlEllipse");
+            this.pnlEllipse.Name = "pnlEllipse";
             // 
             // Form1
             // 
@@ -246,12 +286,16 @@
             this.tabGraphs.ResumeLayout(false);
             this.tabLine.ResumeLayout(false);
             this.tabDDASteps.ResumeLayout(false);
+            this.tabDDAGraph.ResumeLayout(false);
             this.tabLine2.ResumeLayout(false);
             this.tabCircle.ResumeLayout(false);
             this.tabEllipse.ResumeLayout(false);
             this.materialTabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.materialTabControl2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
             this.materialTabControl3.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -280,6 +324,10 @@
         private MaterialSkin.Controls.MaterialTabControl materialTabControl3;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.Panel pnlDDA;
+        private System.Windows.Forms.Panel pnlBresenham;
+        private System.Windows.Forms.Panel pnlCircle;
+        private System.Windows.Forms.Panel pnlEllipse;
     }
 }
 
